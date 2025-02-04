@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.2](https://github.com/BlackGlory/extra-audio/compare/v0.1.1...v0.1.2) (2025-02-04)
+
+
+### Features
+
+* **get-float-frequency-data:** add the `output` parameter ([41c08ec](https://github.com/BlackGlory/extra-audio/commit/41c08ec72355f3b932fe403bfe39decf9e572383))
+
 ### [0.1.1](https://github.com/BlackGlory/extra-audio/compare/v0.1.0...v0.1.1) (2025-02-04)
 
 
