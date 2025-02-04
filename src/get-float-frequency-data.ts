@@ -37,7 +37,7 @@ export function getFloatFrequencyData(
     output = new Float32Array(outputSize)
   }
 
-  for (let i = 0; i < outputSize; i++) {
+  for (let i = outputSize; i--;) {
     const fftOuptutIndex = i * 2
     output[i] = Math.hypot(fftOutput[fftOuptutIndex], fftOutput[fftOuptutIndex + 1])
   }
