@@ -21,3 +21,8 @@ function encodeWAV(audioBuffer: AudioBuffer): ArrayBuffer
 ```
 
 Encode `AudioBuffer` to WAV with PCM 32-bit float little endian.
+
+### getFloatFrequencyData
+```ts
+function getFloatFrequencyData(input: Float32Array): Float32Array
+```

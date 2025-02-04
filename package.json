@@ -55,6 +55,7 @@
   },
   "dependencies": {
     "@blackglory/prelude": "^0.4.0",
-    "extra-utils": "^5.17.0"
+    "extra-utils": "^5.17.0",
+    "fft.js": "^4.0.4"
   }
 }
