@@ -24,5 +24,9 @@ Encode `AudioBuffer` to WAV with PCM 32-bit float little endian.
 
 ### getFloatFrequencyData
 ```ts
-function getFloatFrequencyData(input: Float32Array): Float32Array
+function getFloatFrequencyData(input: Float32Array, output?: Float32Array): Float32Array
 ```
+
+For optimization purposes, an `output` array can be passed in.
+This function has a requirement for the size of the `output`,
+which must be half the smallest power of 2 that greater than or equal to the size of `input`.
