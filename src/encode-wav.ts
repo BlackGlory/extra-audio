@@ -1,4 +1,4 @@
-import { concatBuffers, encodeASCII, uint16ArrayLittleEndian, uint32ArrayLittleEndian } from './utils.js'
+import { concatBuffers, encodeASCII, uint16ArrayLittleEndian, uint32ArrayLittleEndian } from '@utils/buffer.js'
 import { getAllChannelData } from './get-all-channel-data.js'
 
 // WAV有两种主流的采样数据格式: 16位有符号整数和32位浮点数.
