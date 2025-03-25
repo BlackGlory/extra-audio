@@ -1,3 +1,4 @@
+import { describe, it, expect } from 'vitest'
 import { getFloatFrequencyData } from '@src/get-float-frequency-data.js'
 
 describe('getFloatFrequencyData', () => {

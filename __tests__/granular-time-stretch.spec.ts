@@ -1,3 +1,4 @@
+import { describe, it, expect } from 'vitest'
 import { granularTimeStretch } from '@src/granular-time-stretch.js'
 import { rectangleWindow } from '@utils/window-functions.js'
 

@@ -1,3 +1,4 @@
+import { it, expect } from 'vitest'
 import { encodeWAV } from '@src/encode-wav.js'
 import fixtureURL from './fixtures/click.wav'
 

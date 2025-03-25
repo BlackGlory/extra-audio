@@ -1,3 +1,4 @@
+import { describe, it, expect } from 'vitest'
 import { granularPitchShift } from '@src/granular-pitch-shift.js'
 import { rectangleWindow } from '@utils/window-functions.js'
 

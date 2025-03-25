@@ -1,3 +1,4 @@
+import { describe, it, expect } from 'vitest'
 import { timeStretch } from '@src/time-stretch.js'
 
 describe('timeStretch', () => {

@@ -1,3 +1,4 @@
+import { it, expect } from 'vitest'
 import { getAllChannelData } from '@src/get-all-channel-data.js'
 
 it('getAllChannelData', () => {
