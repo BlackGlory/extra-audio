@@ -1,0 +1,19 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`granularPitchShift > pitchScale < 1 1`] = `
+Float32Array [
+  0,
+  0.5,
+  2,
+  2.5,
+]
+`;
+
+exports[`granularPitchShift > pitchScale > 1 1`] = `
+Float32Array [
+  0.5,
+  2.5,
+  4.5,
+  6,
+]
+`;

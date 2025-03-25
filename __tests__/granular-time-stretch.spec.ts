@@ -22,7 +22,7 @@ describe('granularTimeStretch', () => {
 
     expect(result).toBe(output)
     expect(result).not.toBe(input)
-    expect(result).toEqual(new Float32Array([1, 1.5, 2, 2]))
+    expect(result).toMatchSnapshot()
   })
 
   it('output.length < input.length', () => {
@@ -33,6 +33,6 @@ describe('granularTimeStretch', () => {
 
     expect(result).toBe(output)
     expect(result).not.toBe(input)
-    expect(result).toEqual(new Float32Array([1, 2]))
+    expect(result).toMatchSnapshot()
   })
 })

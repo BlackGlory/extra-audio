@@ -7,9 +7,7 @@ describe('getFloatFrequencyData', () => {
 
     const result = getFloatFrequencyData(input)
 
-    expect(result.length).toBe(2)
-    expect(result[0]).toBeCloseTo(6)
-    expect(result[1]).toBeCloseTo(2.8284270763397217)
+    expect(result).toMatchSnapshot()
   })
 
   it('input.length isnt power of 2', () => {
@@ -17,9 +15,7 @@ describe('getFloatFrequencyData', () => {
 
     const result = getFloatFrequencyData(input)
 
-    expect(result.length).toBe(2)
-    expect(result[0]).toBeCloseTo(3)
-    expect(result[1]).toBeCloseTo(2.2360680103302)
+    expect(result).toMatchSnapshot()
   })
 
   it('edge: input.length is 1', () => {
@@ -27,7 +23,6 @@ describe('getFloatFrequencyData', () => {
 
     const result = getFloatFrequencyData(input)
 
-    expect(result.length).toBe(1)
-    expect(result[0]).toBeCloseTo(0)
+    expect(result).toMatchSnapshot()
   })
 })

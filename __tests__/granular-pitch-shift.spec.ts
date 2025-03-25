@@ -38,7 +38,7 @@ describe('granularPitchShift', () => {
 
     expect(result).toBe(output)
     expect(result).not.toBe(input)
-    expect(result).toEqual(new Float32Array([0.5, 2.5, 4.5, 6]))
+    expect(result).toMatchSnapshot()
   })
 
   it('pitchScale < 1', () => {
@@ -57,6 +57,6 @@ describe('granularPitchShift', () => {
 
     expect(result).toBe(output)
     expect(result).not.toBe(input)
-    expect(result).toEqual(new Float32Array([0, 0.5, 2, 2.5]))
+    expect(result).toMatchSnapshot()
   })
 })

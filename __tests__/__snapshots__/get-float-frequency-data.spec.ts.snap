@@ -1,0 +1,21 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`getFloatFrequencyData > edge: input.length is 1 1`] = `
+Float32Array [
+  0,
+]
+`;
+
+exports[`getFloatFrequencyData > input.length is power of 2 1`] = `
+Float32Array [
+  6,
+  2.8284270763397217,
+]
+`;
+
+exports[`getFloatFrequencyData > input.length isnt power of 2 1`] = `
+Float32Array [
+  3,
+  2.2360680103302,
+]
+`;

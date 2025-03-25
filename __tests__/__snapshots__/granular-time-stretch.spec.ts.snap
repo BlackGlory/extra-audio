@@ -1,0 +1,17 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`granularTimeStretch > output.length < input.length 1`] = `
+Float32Array [
+  1,
+  2,
+]
+`;
+
+exports[`granularTimeStretch > output.length > input.length 1`] = `
+Float32Array [
+  1,
+  1.5,
+  2,
+  2,
+]
+`;
