@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.5](https://github.com/BlackGlory/extra-audio/compare/v0.1.4...v0.1.5) (2025-11-30)
+
+
+### Features
+
+* es2022 => es2020 ([8ce5a7e](https://github.com/BlackGlory/extra-audio/commit/8ce5a7e99731f39c0ba3e41d4faa66ca0df2be0d))
+
 ### [0.1.4](https://github.com/BlackGlory/extra-audio/compare/v0.1.3...v0.1.4) (2025-02-07)
 
 
