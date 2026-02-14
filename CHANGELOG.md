@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.6](https://github.com/BlackGlory/extra-audio/compare/v0.1.5...v0.1.6) (2026-02-14)
+
+
+### Features
+
+* **get-sample:** add a parameter validator for `samples` ([03c1518](https://github.com/BlackGlory/extra-audio/commit/03c151883b2f4f092802915d2881b41ad38689a5))
+* **granular-pitch-shift, granular-time-stretch:** add parameter validators ([4536e26](https://github.com/BlackGlory/extra-audio/commit/4536e26c984efec68968485150933602e297e68e))
+
+
+### Bug Fixes
+
+* **granular-pitch-shift, granular-time-stretch:** prevent division by zero ([bc75af1](https://github.com/BlackGlory/extra-audio/commit/bc75af1c651ebd1b93340e051c56b4e559151e8c))
+
 ### [0.1.5](https://github.com/BlackGlory/extra-audio/compare/v0.1.4...v0.1.5) (2025-11-30)
 
 
