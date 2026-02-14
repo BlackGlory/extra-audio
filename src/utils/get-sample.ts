@@ -1,6 +1,9 @@
+import { assert } from '@blackglory/prelude'
 import { lerp, modf } from 'extra-utils'
 
 export function getSample(samples: ArrayLike<number>, index: number): number {
+  assert(samples.length > 0, 'samples cannot be empty')
+
   const [inputIndex, alpha] = modf(index)
 
   const lastIndex = samples.length - 1
