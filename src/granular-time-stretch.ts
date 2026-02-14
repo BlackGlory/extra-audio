@@ -35,10 +35,15 @@ export function granularTimeStretch(
     for (let offset = 0; offset < grainSize; offset++) {
       const outputIndex = outputIndexStart + offset
       const inputIndex = inputIndexStart + offset
+
       output[outputIndex] += getSample(input, inputIndex)
-                           * window(
-                               offset
-                             / (grainSize - 1) // 要求grainSize不等于1
+                           * (
+                               (grainSize - 1) === 0
+                             ? 1
+                             : window(
+                                 offset
+                               / (grainSize - 1) // 要求grainSize不等于1, 否则将出现除零.
+                               )
                              )
     }
   }

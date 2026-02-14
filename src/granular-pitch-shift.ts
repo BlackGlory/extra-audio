@@ -48,9 +48,13 @@ export function granularPitchShift(
       )
 
       output[outputIndex] += getSample(input, inputIndex)
-                           * window(
-                               outputOffset
-                             / (outputGrainSize - 1) // 要求outputGrainSize不等于1
+                           * (
+                               (outputGrainSize - 1) === 0
+                             ? 1
+                             : window(
+                                 outputOffset
+                               / (outputGrainSize - 1) // 要求outputGrainSize不等于1, 否则将出现除零.
+                               )
                              )
     }
   }
